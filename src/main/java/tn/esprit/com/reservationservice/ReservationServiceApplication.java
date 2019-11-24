@@ -1,4 +1,4 @@
-package tn.esprit.arctic.reservationservice;
+package tn.esprit.com.reservationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package tn.esprit.arctic.reservationservice;
+package tn.esprit.com.reservationservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

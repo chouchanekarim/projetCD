@@ -11,5 +11,20 @@ pipeline{
 	      		input 'do you want to proceed'
 	        	}	
 		}
+		stage('Build') {
+            		steps {
+                	echo 'Building..'
+            		}
+        	}
+        	stage('Test') { 
+            		steps {
+                	echo 'Testing..'
+            		}
+        	}
+        	stage('Deploy') {
+            		steps {
+                	echo 'Deploying....'
+            		}
+        	}
 	}
 }

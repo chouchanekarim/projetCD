@@ -25,6 +25,10 @@ pipeline{
             		steps {
                 	echo 'Deploying....'
             		}
+		stage('fuck u') {
+            		steps {
+                	echo 'Get out of mind....'
+            		}
         	}
 	}
 }

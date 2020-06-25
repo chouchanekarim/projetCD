@@ -1,22 +1,15 @@
 pipeline{
 	agent any
-	tools {
-		maven 'Maven 3.6.2'
 	}
 	stages{
-		stage ('Clean') {
+		stage ('One') {
 	 		steps {
-				bat 'mvn clean'
+				echo 'hello karim'
 	        	}
 		}
-	 	stage ('Package') {
+	 	stage ('two') {
 			steps {
-	      		bat 'mvn package'
-	        	}	
-		}
-		stage ('CREATE DOCKER IMAGE') {
-			steps {
-	      		bat 'mvn install'
+	      		input 'do you want to proceed'
 	        	}	
 		}
 	}
